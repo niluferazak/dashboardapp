@@ -1,0 +1,19 @@
+.search{
+    
+    margin-right: px;
+    
+    
+    
+    
+}
+.search>input{
+    width: 15rem;
+    
+}
+
+.searchbar{
+    height: 30px;
+    background: #F4F4F4;
+    border-radius: 10px;
+ border-style: hidden;
+}

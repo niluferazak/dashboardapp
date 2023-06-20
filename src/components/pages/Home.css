@@ -1,0 +1,32 @@
+.home{
+    flex:4;
+    background: #F4F4F4
+}
+
+.dashboard{
+    padding:50px;
+    background: #F4F4F4;
+    height: 100%;
+}
+
+.dashboard>h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.color{
+    border-radius: 75%;
+    background:#FFBC99;
+}
+
+.dashboard>span>span{
+    font-weight: bold;
+}
+
+.dashboard>span{
+    margin-top: 20px;
+    display: flex;
+}
+.button{
+    margin-left: 300px;
+    
+}

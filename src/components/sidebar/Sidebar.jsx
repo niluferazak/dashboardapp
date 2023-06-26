@@ -41,8 +41,8 @@ const Sidebar = ({ Children }) => {
     },
 
     {
-      path: "/Promote",
-      name: " promote",
+      path: "/promote",
+      name: " Promote",
       icon: <img src={promote} alt="promote" />,
     },
   ];
@@ -90,7 +90,7 @@ const Sidebar = ({ Children }) => {
               <Link to="/promote" className="link">
                 <li className="sidebarListitem">
                   <img src={promote} alt="promote" />
-                  promote
+                  Promote
                 </li>
               </Link>
            

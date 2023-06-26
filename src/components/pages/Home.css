@@ -20,13 +20,16 @@
 
 .dashboard>span>span{
     font-weight: bold;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 .dashboard>span{
-    margin-top: 20px;
+    margin-top: 1rem;
     display: flex;
 }
 .button{
+    
     margin-left: 300px;
     
 }

@@ -15,7 +15,7 @@ const Home = () => {
         
         <Info />
         
-        <span>Welcome  <span>   857 customers   </span>  with a</span>
+        <span>Welcome <span> 857 customers</span> with a</span>
         <span >personal message</span>
         <button className="button">Send message</button>
       </div>

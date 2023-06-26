@@ -51,7 +51,7 @@ const Sidebar = ({ Children }) => {
       <div className="sidebarWrapper">
         <div className="sidebarMenu">
           <ul className="sidebarList">
-            <BrowserRouter>
+           
               <Link to="/home" className="link">
                 <li className="sidebarListitem">
                   <img src={home} alt="home" />
@@ -59,26 +59,26 @@ const Sidebar = ({ Children }) => {
                 </li>
               </Link>
 
-              <Link to="/products" className="link">
+              <NavLink to="/products" className="link">
                 <li className="sidebarListitem">
                   <img src={products} alt="products" />
                   Products
                 </li>
-              </Link>
+              </NavLink>
 
-              <Link to="/customers" className="link">
+              <NavLink to="/customers" className="link">
                 <li className="sidebarListitem">
                   <img src={customers} alt="customers" />
                   Customers
                 </li>
-              </Link>
+              </NavLink>
 
-              <Link to="/shop" className="link">
+              <NavLink to="/shop" className="link">
                 <li className="sidebarListitem">
                   <img src={shop} alt="shop" />
                   Shop
                 </li>
-              </Link>
+              </NavLink>
 
               <Link to="/income" className="link">
                 <li className="sidebarListitem">
@@ -93,7 +93,7 @@ const Sidebar = ({ Children }) => {
                   promote
                 </li>
               </Link>
-            </BrowserRouter>
+           
           </ul>
           {/* {menuItems.map((item, index)=>(
     <BrowserRouter>

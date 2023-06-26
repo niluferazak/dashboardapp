@@ -9,7 +9,7 @@ import Searchbar from "../searchbar/Searchbar";
 
 const Topbar = () => {
   return (
-    <div classname="topbar">
+    <div className="topbar">
       <div className="topbarWrapper">
         <div className="topLeft">
           <div className="logo">

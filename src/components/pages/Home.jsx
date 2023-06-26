@@ -1,9 +1,12 @@
 import React from "react";
 import "./Home.css";
 import Info from "../info/Info";
+import Sidebar from "../sidebar/Sidebar";
 
 const Home = () => {
   return (
+    <>
+    
     <div className="home">
       <h1>Dashboard</h1>
       <div className="dashboard">
@@ -18,6 +21,7 @@ const Home = () => {
       </div>
       
     </div>
+    </>
   );
 };
 

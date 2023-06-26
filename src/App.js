@@ -18,19 +18,19 @@ function App() {
 
 
      <Sidebar/>
-     <BrowserRouter>
+     
      <Routes>
-     <Route path="/home" element={<Home/>}/>
+     <Route  exact path="/home" element={<Home/>}/>
 
    
-     <Route path="/products" element = {<Products/>}/>
-     <Route path="/customers" element = {<Customers/>}/>
-     <Route path="/shop" element = {<Shop/>}/>
-     <Route path="/income" element = {<Income/>}/>
-     <Route path="/promote" element = {<Promote/>}/>
+     <Route exact path="/products" element = {<Products/>}/>
+     <Route  exact path="/customers" element = {<Customers/>}/>
+     <Route  exact path="/shop" element = {<Shop/>}/>
+     <Route  exact path="/income" element = {<Income/>}/>
+     <Route  exact path="/promote" element = {<Promote/>}/>
 
      </Routes>
-     </BrowserRouter>
+     
     
       
      
@@ -39,7 +39,7 @@ function App() {
       
 
      
-    </div>
+     </div>
 
     </div>
   );

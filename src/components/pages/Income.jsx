@@ -1,8 +1,9 @@
 import React from 'react'
+import "./Income.css"
 
 const Income = () => {
   return (
-    <div>
+    <div className='income'>
       <h1>
         income
       </h1>
